@@ -1,26 +1,26 @@
-# Portfolio V5
+# Portfólio V5
 
-Hello everyone! 👋
+Olá a todos! 👋
 
-Let me introduce myself, I'm **Eki Zulfar Rachman**. On this occasion, I'd like to share the portfolio website project that I've developed.
+Permitam-me apresentar-me. Sou **Eki Zulfar Rachman**. Nesta ocasião, gostaria de compartilhar o projeto de site de portfólio que desenvolvi.
 
-## 🚀 Live Demo
+## 🚀 Demonstração ao vivo
 
-**Website Link:** [https://www.eki.my.id/](https://www.eki.my.id/)
+**Link do site:** [https://www.eki.my.id/](https://www.eki.my.id/)
 
-## 🛠️ Tech Stack
+## 🛠️ Pilha de tecnologia
 
-This project is built using modern web technologies:
+Este projeto foi desenvolvido utilizando tecnologias web modernas:
 
-- **ReactJS** - Frontend framework
-- **Tailwind CSS** - Utility-first CSS framework
-- **AOS** - Animate On Scroll library
-- **Firebase** - Backend services for portfolio data
-- **Supabase** - Backend for comment system
-- **Framer Motion** - Animation library
-- **Lucide** - Icon library
-- **Material UI** - React component library
-- **SweetAlert2** - Beautiful alert dialogs
+- **ReactJS** - Framework front-end
+- **Tailwind CSS** - Framework CSS que prioriza utilitários
+- **AOS** - Biblioteca Animate On Scroll
+- **Firebase** - Serviços de back-end para dados de portfólio
+- **Supabase** - Back-end para sistema de comentários
+- **Framer Motion** - Biblioteca de animação
+- **Lucide** - Biblioteca de ícones
+- **Material UI** - Biblioteca de componentes React
+- **SweetAlert2** - Caixas de diálogo de alerta atraentes
 
 ## 📋 Prerequisites
 
