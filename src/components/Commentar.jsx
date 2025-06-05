@@ -360,10 +360,10 @@ const Komentar = () => {
         const diffHours = Math.floor(diffMinutes / 60);
         const diffDays = Math.floor(diffHours / 24);
 
-        if (diffMinutes < 1) return 'Just now';
-        if (diffMinutes < 60) return `${diffMinutes}m ago`;
-        if (diffHours < 24) return `${diffHours}h ago`;
-        if (diffDays < 7) return `${diffDays}d ago`;
+        if (diffMinutes < 1) return 'Agora';
+        if (diffMinutes < 60) return `${diffMinutes}m atrás`;
+        if (diffHours < 24) return `${diffHours}h atrás`;
+        if (diffDays < 7) return `${diffDays}d atrás`;
 
         return new Intl.DateTimeFormat('en-US', {
             year: 'numeric',
