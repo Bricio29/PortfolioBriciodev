@@ -12,7 +12,7 @@ const StatusBadge = memo(() => (
       <div className="relative px-3 sm:px-4 py-2 rounded-full bg-black/40 backdrop-blur-xl border border-white/10">
         <span className="bg-gradient-to-r from-[#6366f1] to-[#a855f7] text-transparent bg-clip-text sm:text-sm text-[0.7rem] font-medium flex items-center">
           <Sparkles className="sm:w-4 sm:h-4 w-3 h-3 mr-2 text-blue-400" />
-          Ready to Innovate
+          Pronto para Inovar
         </span>
       </div>
     </div>
@@ -25,7 +25,7 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Developer
+          Bricio
         </span>
       </span>
       <br />
@@ -77,7 +77,7 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Estudante de Sistemas de Informação"];
+const WORDS = ["Fullstack Developer", "Technological Explorer"];
 const TECH_STACK = ["Javascript","React", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/Bricio29" },
@@ -183,7 +183,7 @@ const Home = () => {
                 <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                   data-aos="fade-up"
                   data-aos-delay="1000">
-                  Transform ideas into a modern and intuitive website.
+                  Transforme ideias em um site moderno e intuitivo.
                 </p>
 
                 {/* Tech Stack */}

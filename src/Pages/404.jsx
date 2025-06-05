@@ -25,10 +25,10 @@ export default function NotFoundPage() {
         {/* Message */}
         <div className="mb-8">
           <h2 className="text-3xl font-semibold text-gray-700 mb-4">
-            Oops! Page not found
+            Oops! Página não encontrada.
           </h2>
           <p className="text-lg text-gray-600 max-w-md mx-auto leading-relaxed">
-            The page you are looking for may have been moved, deleted, or never existed.
+          A página que você está procurando pode ter sido movida, excluída ou nunca ter existido.
           </p>
         </div>
 

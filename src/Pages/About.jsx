@@ -12,7 +12,7 @@ const Header = memo(() => (
         data-aos="zoom-in-up"
         data-aos-duration="600"
       >
-        About Me
+        Sobre Mim
       </h2>
     </div>
     <p 
@@ -21,7 +21,7 @@ const Header = memo(() => (
       data-aos-duration="800"
     >
       <Sparkles className="w-5 h-5 text-purple-400" />
-      Creating digital experiences from innovative ideas
+      Criando experiências digitais a partir de ideias inovadoras
       <Sparkles className="w-5 h-5 text-purple-400" />
     </p>
   </div>
@@ -160,24 +160,24 @@ const AboutPage = () => {
       icon: Code,
       color: "from-[#6366f1] to-[#a855f7]",
       value: totalProjects,
-      label: "Total Projects",
-      description: "Innovative web solutions crafted",
+      label: "Total Projetos",
+      description: "Soluções Web inovadoras criadas",
       animation: "fade-right",
     },
     {
       icon: Award,
       color: "from-[#a855f7] to-[#6366f1]",
       value: totalCertificates,
-      label: "Certificates",
-      description: "Professional skills validated",
+      label: "Certificados",
+      description: "Habilidades profissionais validadas",
       animation: "fade-up",
     },
     {
       icon: Globe,
       color: "from-[#6366f1] to-[#a855f7]",
       value: YearExperience,
-      label: "Years of Experience",
-      description: "Continuous learning journey",
+      label: "Anos de Experiência",
+      description: "Jornada de aprendizagem contínua",
       animation: "fade-left",
     },
   ], [totalProjects, totalCertificates, YearExperience]);
@@ -198,7 +198,7 @@ const AboutPage = () => {
               data-aos-duration="1000"
             >
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]">
-                Hello, I'm
+              Olá, eu sou
               </span>
               <span 
                 className="block mt-2 text-gray-200"
@@ -214,7 +214,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-             Sou estudante de Sistemas de Informação, apaixonado por desenvolvimento de software e design de sites. Meu objetivo é criar soluções digitais inovadoras e eficientes, sempre com foco na experiência do usuário e na entrega de resultados de qualidade.
+             Tenho 22 anos, sou estudante de Sistemas de Informação, apaixonado por desenvolvimento de software e design de sites. Meu objetivo é criar soluções digitais inovadoras e eficientes, sempre com foco na experiência do usuário e na entrega de resultados de qualidade.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
@@ -233,7 +233,7 @@ const AboutPage = () => {
                 data-aos-duration="1000"
                 className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg border border-[#a855f7]/50 text-[#a855f7] font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 hover:bg-[#a855f7]/10 animate-bounce-slow delay-200"
               >
-                <Code className="w-4 h-4 sm:w-5 sm:h-5" /> View Projects
+                <Code className="w-4 h-4 sm:w-5 sm:h-5" /> Ver Projetos
               </button>
               </a>
             </div>

@@ -8,9 +8,9 @@ const Navbar = () => {
     
     const navItems = [
         { href: "#Home", label: "Home" },
-        { href: "#About", label: "About" },
-        { href: "#Portofolio", label: "Portofolio" },
-        { href: "#Contact", label: "Contact" },
+        { href: "#About", label: "Sobre" },
+        { href: "#Portofolio", label: "Portfólio" },
+        { href: "#Contact", label: "Contato" },
     ];
 
     useEffect(() => {

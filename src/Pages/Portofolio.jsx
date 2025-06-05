@@ -104,15 +104,15 @@ const techStacks = [
   { icon: "html.svg", language: "HTML" },
   { icon: "css.svg", language: "CSS" },
   { icon: "javascript.svg", language: "JavaScript" },
-  { icon: "tailwind.svg", language: "Tailwind CSS" },
   { icon: "reactjs.svg", language: "ReactJS" },
-  { icon: "vite.svg", language: "Vite" },
   { icon: "nodejs.svg", language: "Node JS" },
-  { icon: "bootstrap.svg", language: "Bootstrap" },
   { icon: "firebase.svg", language: "Firebase" },
+  { icon: "Supabase.svg", language: "Supabase" },
+  { icon: "tailwind.svg", language: "Tailwind" },
+  { icon: "bootstrap.svg", language: "Bootstrap" },
   { icon: "MUI.svg", language: "Material UI" },
   { icon: "vercel.svg", language: "Vercel" },
-  { icon: "SweetAlert.svg", language: "SweetAlert2" },
+  { icon: "vite.svg", language: "Vite" },
 ];
 
 export default function FullWidthTabs() {
@@ -192,12 +192,12 @@ export default function FullWidthTabs() {
             backgroundClip: 'text',
             WebkitTextFillColor: 'transparent'
           }}>
-            Portfolio Showcase
+            Vitrine de Portfólio
           </span>
         </h2>
         <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base mt-2">
-          Explore my journey through projects, certifications, and technical expertise. 
-          Each section represents a milestone in my continuous learning path.
+        Explore minha jornada por meio de projetos, certificações e conhecimentos técnicos. 
+        Cada seção representa um marco em meu caminho de aprendizagem contínua.
         </p>
       </div>
 
@@ -273,12 +273,12 @@ export default function FullWidthTabs() {
           >
             <Tab
               icon={<Code className="mb-2 w-5 h-5 transition-all duration-300" />}
-              label="Projects"
+              label="Projetos"
               {...a11yProps(0)}
             />
             <Tab
               icon={<Award className="mb-2 w-5 h-5 transition-all duration-300" />}
-              label="Certificates"
+              label="Certificados"
               {...a11yProps(1)}
             />
             <Tab

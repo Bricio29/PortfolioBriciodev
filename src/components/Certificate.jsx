@@ -58,7 +58,7 @@ const Certificate = ({ ImgSertif }) => {
 					<img
 						className="certificate-image"
 						src={ImgSertif}
-						alt="Certificate"
+						alt="Certificado"
 						style={{
 							width: "100%",
 							height: "auto",
@@ -113,7 +113,7 @@ const Certificate = ({ ImgSertif }) => {
 								fontWeight: 600,
 								textShadow: "0 2px 4px rgba(0,0,0,0.3)",
 							}}>
-							View Certificate
+							Ver Certificado
 						</Typography>
 					</Box>
 				</Box>

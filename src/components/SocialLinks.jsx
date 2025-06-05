@@ -10,8 +10,8 @@ import {
 const socialLinks = [
   {
     name: "LinkedIn",
-    displayName: "Let's Connect",
-    subText: "on LinkedIn",
+    displayName: "Conecte-se",
+    subText: "no LinkedIn",
     icon: Linkedin,
     url: "https://www.linkedin.com/in/briciodev/",
     color: "#0A66C2",
@@ -76,7 +76,7 @@ const SocialLinks = () => {
     <div className="w-full bg-gradient-to-br from-white/10 to-white/5 rounded-2xl p-6 py-8 backdrop-blur-xl">
       <h3 className="text-xl font-semibold text-white mb-6 flex items-center gap-2">
         <span className="inline-block w-8 h-1 bg-indigo-500 rounded-full"></span>
-        Connect With Me
+        Conecte-se comigo
       </h3>
 
       <div className="flex flex-col gap-4">

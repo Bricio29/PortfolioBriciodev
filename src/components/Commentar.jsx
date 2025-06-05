@@ -16,7 +16,7 @@ const Comment = memo(({ comment, formatDate, index, isPinned = false }) => (
         {isPinned && (
             <div className="flex items-center gap-2 mb-3 text-indigo-400">
                 <Pin className="w-4 h-4" />
-                <span className="text-xs font-medium uppercase tracking-wide">Pinned Comment</span>
+                <span className="text-xs font-medium uppercase tracking-wide">Fixado</span>
             </div>
         )}
         <div className="flex items-start gap-3">
@@ -75,7 +75,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
         if (file) {
             // Check file size (5MB limit)
             if (file.size > 5 * 1024 * 1024) {
-                alert('File size must be less than 5MB. Please choose a smaller image.');
+                alert('O tamanho do arquivo deve ser inferior a 5 MB. Escolha uma imagem menor.');
                 // Reset the input
                 if (e.target) e.target.value = '';
                 return;
@@ -83,7 +83,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
             
             // Check file type
             if (!file.type.startsWith('image/')) {
-                alert('Please select a valid image file.');
+                alert('Por favor, selecione um arquivo de imagem válido.');
                 if (e.target) e.target.value = '';
                 return;
             }
@@ -119,13 +119,13 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
         <form onSubmit={handleSubmit} className="space-y-6">
             <div className="space-y-2" data-aos="fade-up" data-aos-duration="1000">
                 <label className="block text-sm font-medium text-white">
-                    Name <span className="text-red-400">*</span>
+                    Nome <span className="text-red-400">*</span>
                 </label>
                 <input
                     type="text"
                     value={userName}
                     onChange={(e) => setUserName(e.target.value)}
-                    placeholder="Enter your name"
+                    placeholder="Digite seu nome"
                     className="w-full p-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-400 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all"
                     required
                 />
@@ -133,13 +133,13 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
 
             <div className="space-y-2" data-aos="fade-up" data-aos-duration="1200">
                 <label className="block text-sm font-medium text-white">
-                    Message <span className="text-red-400">*</span>
+                    Mensagem <span className="text-red-400">*</span>
                 </label>
                 <textarea
                     ref={textareaRef}
                     value={newComment}
                     onChange={handleTextareaChange}
-                    placeholder="Write your message here..."
+                    placeholder="Escreva sua mensagem aqui..."
                     className="w-full p-4 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-400 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all resize-none min-h-[120px]"
                     required
                 />
@@ -147,7 +147,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
 
             <div className="space-y-2" data-aos="fade-up" data-aos-duration="1400">
                 <label className="block text-sm font-medium text-white">
-                    Profile Photo <span className="text-gray-400">(optional)</span>
+                    Foto Perfil <span className="text-gray-400">(opicional)</span>
                 </label>
                 <div className="flex items-center gap-4 p-4 bg-white/5 border border-white/10 rounded-xl">
                     {imagePreview ? (
@@ -167,7 +167,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
                                 className="flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/20 text-red-400 hover:bg-red-500/30 transition-all group"
                             >
                                 <X className="w-4 h-4" />
-                                <span>Remove Photo</span>
+                                <span>Remover Foto</span>
                             </button>
                         </div>
                     ) : (
@@ -185,10 +185,10 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
                                 className="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-indigo-500/20 text-indigo-400 hover:bg-indigo-500/30 transition-all border border-dashed border-indigo-500/50 hover:border-indigo-500 group"
                             >
                                 <ImagePlus className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                                <span>Choose Profile Photo</span>
+                                <span>Escolha uma foto de Perfil</span>
                             </button>
                             <p className="text-center text-gray-400 text-sm mt-2">
-                                Max file size: 5MB
+                            Tamanho máximo do arquivo: 5 MB
                             </p>
                         </div>
                     )}
@@ -206,12 +206,12 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
                     {isSubmitting ? (
                         <>
                             <Loader2 className="w-4 h-4 animate-spin" />
-                            <span>Posting...</span>
+                            <span>Postando...</span>
                         </>
                     ) : (
                         <>
                             <Send className="w-4 h-4" />
-                            <span>Post Comment</span>
+                            <span>Postar Comentário</span>
                         </>
                     )}
                 </div>
@@ -383,7 +383,7 @@ const Komentar = () => {
                         <MessageCircle className="w-6 h-6 text-indigo-400" />
                     </div>
                     <h3 className="text-xl font-semibold text-white">
-                        Comments <span className="text-indigo-400">({totalComments})</span>
+                        Comentários <span className="text-indigo-400">({totalComments})</span>
                     </h3>
                 </div>
             </div>
