@@ -113,9 +113,9 @@ Os dados do portfólio são armazenados no Firebase Firestore. Para configurar o
 5. **Estrutura da Coleção:**
    Configure suas coleções do Firestore conforme mostrado abaixo:
 
-![Exemplo de Estrutura de Coleção 1](https://github.com/user-attachments/assets/8d7cec06-88ee-425e-b693-6384c908062e)
+![Exemplo de Estrutura de Coleção 1](https://portfolio-briciodev-txw2.vercel.app/Structs1)
 
-![Exemplo de Estrutura de Coleção 2](https://github.com/user-attachments/assets/7da52ebf-6967-4fb4-b3c3-a329affe878a)
+![Exemplo de Estrutura de Coleção 2](https://portfolio-briciodev-txw2.vercel.app/Structs2)
 
 6. **Configuração das Variáveis ​​de Ambiente:**
    Adicione sua configuração do Firebase ao arquivo `.env`:

@@ -45,7 +45,7 @@ const ToggleButton = ({ onClick, isShowingMore }) => (
     "
   >
     <span className="relative z-10 flex items-center gap-2">
-      {isShowingMore ? "See Less" : "See More"}
+      {isShowingMore ? "Mostrar Menos" : "Mostrar Mais"}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
