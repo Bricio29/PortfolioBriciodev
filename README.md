@@ -6,7 +6,7 @@ Permitam-me apresentar-me. Sou **Fabrício Weslley**. Nesta ocasião, gostaria d
 
 ## 🚀 Demonstração ao vivo
 
-**Link do site:** [https://portfolio-briciodev-txw2.vercel.app/](https://portfolio-briciodev-txw2.vercel.app/)
+**Link do site:** [https://briciodev.vercel.app/](https://briciodev.vercel.app/)
 
 ## 🛠️ Pilha de tecnologia
 
