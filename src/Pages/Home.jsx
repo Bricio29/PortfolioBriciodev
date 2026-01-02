@@ -143,7 +143,7 @@ const Home = () => {
 
   // Lottie configuration
   const lottieOptions = {
-    src: "https://lh3.googleusercontent.com/pw/AP1GczPeCaDBzdXVDdkT9A_auXOiyUbWxQhnJLrU1948GJhb2dKlqXTghxRkyWisNYuNKaiyQ_TE-6EbmjQQUS-21AR-v-FXa5VjLffEyyT_d5TTmL1mCvMRCfrFwJL_9_bfpsgRpXb0_0TV-yEdhrk5mWG3=w150-h150-s-no-gm?authuser=0",
+    src: "../../public/coding.gif",
     loop: true,
     autoplay: true,
     rendererSettings: {
