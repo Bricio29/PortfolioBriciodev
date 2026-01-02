@@ -143,7 +143,7 @@ const Home = () => {
 
   // Lottie configuration
   const lottieOptions = {
-    src: "../../public/coding.gif",
+    src: "https://lottie.host/eb82189c-e4e1-4d92-ae91-074ae427cbb0/QehkXMyLe5.lottie",
     loop: true,
     autoplay: true,
     rendererSettings: {
